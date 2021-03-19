@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <style>
+            * {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: medium;
+            }
+            table {
+                width: 50%;
+            }
+            #IdExample {
+                color: blue;
+            }
+            .ClassExample {
+                background-color: cadetblue;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: lighter;
+                color: red;
+            }
+        </style>
+    </header>
+    <body>
+        <center>
+            <table border="1">
+                <tr>
+                    <td>
+                        <p>
+                            Greetings everyone. I am Azhan. In this assignment, I will show you on how I implement 
+                            4 different types of CSS Selectors.
+                        </p>
+                        <p>
+                            Which are : 
+                            <ol>
+                                <li>Type</li>
+                                <li>Universal</li>
+                                <li>Id</li>
+                                <li>Class</li>
+                            </ol>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <dl>
+                            <dt>Type</dt>
+                            <dd>When we used type selector, we don't need any symbols for it. Just put the tag alone and 
+                                it is enough to complete the 'type' selector.</dd><br>
+                            <dd>
+                                As an example, you can see how i implement type selector. Right now, im used width 
+                                attribute and apply it to table tag by using type selector.
+                                <pre>
+                                    table {
+                                        width: 50%;
+                                    }
+                                </pre>
+                            </dd>
+                        </dl>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <dl>
+                            <dt>Universal</dt>
+                        <dd>We use Universal selector when we wanted to apply the CSS to the whole html code. 
+                            How we do it? It is very easy. We just need to use asterisk symbol (*). Nothing more
+                            than that. 
+                        </dd>
+                        <dd>
+                            In this scenario, I used universal code to apply the thing as below : 
+                            <ul>
+                                <li>Set font-family to Arial, Helvetica, sans-serif.</li>
+                                <li>Set the font size to medium. </li>
+                            </ul>
+                            <pre>
+                                * {
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    font-size: medium;
+                                }
+                            </pre> 
+                        </dd>
+                        </dl>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <dl>
+                            <dt>Id</dt>
+                            <dd>
+                                Id selector is used when we wanted to implement the CSS to the specific Id attribute. 
+                                There are 2 things that we need to concern about. 
+                                    <li>Set Id attribute in the selected tag</li>
+                                    <pre><h4 id="IdExample">This is example for Id attribute. 
+I used id attribute and set it with "Id Example".
+like this : < h4 id="IdExample"></h4></pre>
+                                    <li>Used hash(#) symbol to the id.</li>
+                                    <pre>In the style tag(internal style), we will apply as below: 
+                                    #IdExample {
+                                    }
+                                    Example :
+                                    #IdExample {
+                                    color: blue;
+                                    }</pre>
+                            </dd>
+                        </dl>
+                    </td>
+                </tr>
+                <tr class="ClassExample">
+                    <td>
+                        <dl>
+                            <dt>Class</dt>
+                            <dd>
+                                Class selector used when we wanted to apply the css into class attribute. 
+                                2 things that we need to concerns are:
+                                <li>Class value </li>
+                                <li>Class symbol : period(.)</li>
+                                We will used period (.) to call the class attribute. Example :
+                                <pre>
+                                    class="ClassExample"
+                                </pre>
+                                This is how we call the call:
+                                <pre>
+                                    .ClassExample {}
+                                </pre>
+                                Now, I will apply CSS to this row using Class Selector as below:
+                                <pre>
+                                    background-color: cadetblue;
+                                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                    font-weight: lighter;
+                                    color: red;
+                                </pre>
+                            </dd>
+                        </dl>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>I hope by reading this, you guys can understand or at least revise on what we have 
+                            learn before. Thank you. 
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
